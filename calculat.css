@@ -1,0 +1,53 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+#container{
+    height: 400px;
+    width:260px;
+    border:2px solid black;
+    background-color: pink;
+    text-align: right;
+   
+}
+button{
+    height:50px;
+    width:50px;
+    margin: 3px;
+    border-radius: 50%;
+    font-weight:bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+input{
+    padding:22px;
+    border:none;
+    outline: none;
+    font-size: 40px;
+    margin: 6px;
+    text-align: right;
+    width:250px;
+    background-color: pink;
+    cursor: pointer;
+}
+#equal{
+    background-color: orangered;
+}
+button:active{
+    background-color: brown;
+    transform: translate(2px, 2px);
+}
+
+.opr{
+    color: coral;
+    font-weight: 700;
+    background-color:cornsilk;
+}
